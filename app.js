@@ -25,7 +25,6 @@ const onMouseMove = (event) => {
 
 const handleColorClick = (event) => {
   const color = event.target.style.backgroundColor;
-  console.log(color);
   ctx.strokeStyle = color;
 };
 
